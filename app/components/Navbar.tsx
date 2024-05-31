@@ -1,6 +1,7 @@
 import Link from "next/link";
 // import SearchBox from "./SearchBox";
 import logo from "../../public/logo.png";
+import SearchBox from "./SearchBox";
 function Navbar() {
   return (
     <>
@@ -21,7 +22,7 @@ function Navbar() {
         >
           Blog
         </Link>
-        <div className="sm:ml-8 ml-2">{/* <SearchBox /> */}</div>
+        <div className="sm:ml-8 ml-2"><SearchBox /></div>
       </div>
       {/* end logo */}
     </>
