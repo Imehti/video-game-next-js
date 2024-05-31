@@ -1,9 +1,10 @@
+import Navbar from "./components/Navbar";
 
 function Home() {
   return (
     <>
       <div className={`bg-home-bg h-screen bg-cover bg-center object-contain overflow-hidden bg-no-repeat`}>
-        {/* <Navbar /> */}
+        <Navbar />
         <div className="flex items-center sm:mt-32 sm:ml-12 mt-24 ml-2">
           <h1 className="text-white sm:text-4xl font-bold text-xl sm:tracking-widest">
             Discover Games You Will Love
