@@ -9,11 +9,15 @@ const config: Config = {
  theme: {
    extend: {
      backgroundImage: {
-       'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-       'gradient-conic':
-         'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      'home-bg':"url(../public/homeBg.jpg)"
      },
    },
+   colors:{
+    'blue':'#211A70',
+    'white':'#FFFFFF',
+    'gray':'#848484',
+    'searchIcon':'#484848'
+  }
  },
  plugins: [daisyui],
 }
