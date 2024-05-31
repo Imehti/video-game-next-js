@@ -18,7 +18,7 @@ function Home() {
           </p>
           <span className="text-white font-medium"> So Let's Go!</span>
           <div className="mt-8">
-            <button className="bg-blue text-white p-1 px-3 rounded-full w-44 py-2 flex justify-between items-center">
+            <button className="bg-blue btn btn-primary text-white p-1 px-3 rounded-full w-44 py-2 flex justify-between items-center">
               Start Exploring
               <svg
                 xmlns="http://www.w3.org/2000/svg"
